@@ -1,3 +1,4 @@
+
 const navItems = [
   { id: "home", icon: "ti-home", label: "Home" },
   { id: "continue", icon: "ti-player-play", label: "Continue Learning" },
@@ -172,11 +173,11 @@ export default function Sidebar({ activeSection, setActiveSection, collapsed, se
           background: "linear-gradient(135deg, #7F77DD 0%, #D4537E 100%)",
           display: "flex", alignItems: "center", justifyContent: "center",
           flexShrink: 0, fontSize: 13, fontWeight: 500, color: "#fff",
-        }}>TM</div>
+        }}>SK</div>
         {!collapsed && (
           <div style={{ overflow: "hidden" }}>
-            <p style={{ fontSize: 13, fontWeight: 500, margin: 0, color: "#e8e4dc", whiteSpace: "nowrap" }}>Thabo M.</p>
-            <p style={{ fontSize: 11, margin: 0, color: "rgba(255,255,255,0.35)", whiteSpace: "nowrap" }}>Grade 11 · 840 pts</p>
+            <p style={{ fontSize: 13, fontWeight: 500, margin: 0, color: "#e8e4dc", whiteSpace: "nowrap" }}>Sacha K.</p>
+            <p style={{ fontSize: 11, margin: 0, color: "rgba(255,255,255,0.35)", whiteSpace: "nowrap" }}>Wits Graduate · 840 pts</p>
           </div>
         )}
       </div>

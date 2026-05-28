@@ -29,7 +29,7 @@ export default function VideoFeed({ videos, activeSection, onSelectVideo }) {
             margin: 0,
             letterSpacing: "-0.02em",
           }}>
-            {activeSection === "home" ? "Good afternoon, Thabo" : sections[activeSection] || activeSection}
+            {activeSection === "home" ? "Good afternoon, Sacha" : sections[activeSection] || activeSection}
           </h1>
         </div>
 
