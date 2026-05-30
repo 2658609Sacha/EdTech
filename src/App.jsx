@@ -3,7 +3,7 @@ import Sidebar from "./components/Sidebar";
 import VideoFeed from "./components/VideoFeed";
 import VideoPlayer from "./components/VideoPlayer";
 
-const sampleVideos = [
+const sampleVideos = [ 
   { id: 1, title: "Introduction to Calculus", subject: "Mathematics", duration: "18:42", instructor: "Dr. Amara Nwosu", thumbnail: "math", views: "12.4k", progress: 65 },
   { id: 2, title: "Photosynthesis Explained", subject: "Biology", duration: "14:08", instructor: "Prof. Li Wei", thumbnail: "bio", views: "9.1k", progress: 0 },
   { id: 3, title: "The French Revolution", subject: "History", duration: "22:15", instructor: "Dr. Sara Okonkwo", thumbnail: "history", views: "7.3k", progress: 30 },
